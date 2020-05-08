@@ -1,5 +1,7 @@
 'use strict';
 
+(function() {
+
 /*
   This file contains extensions being used by the OpenShift Online Developer Preview
   They can be used as reference examples.
@@ -14,14 +16,40 @@ window.OPENSHIFT_CONSTANTS.CLI = {
   "Windowsasd":         "https://openshift.com/tbd_url/win.zip",
   "Mac OS X":        "https://openshift.com/tbd_url/mac.zip"
 };
+  
+  window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links = [
+            {
+                title: 'Documentation (Red Hat)',
+                href: 'https://docs.openshift.com/aro/welcome/index.html'
+            },
+            {
+                title: 'Documentation (Microsoft Azure)',
+                href: 'https://docs.microsoft.com/en-us/azure/openshift/'
+            },
+            {
+                title: 'Interactive Learning Portal',
+                href: 'https://learn.openshift.com'
+            },
+            {
+                title: 'Container Development Kit',
+                href: 'https://developers.redhat.com/products/cdk/overview/'
+            },
+            {
+                title: 'YouTube',
+                href: 'https://www.youtube.com/user/rhopenshift'
+            },
+            {
+                title: 'Blog',
+                href: 'https://blog.openshift.com'
+            }];
 
 window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links.push({
-  title: 'Blog',
+  title: 'Bloddddg',
   href: 'https://blog.openshift.com'
 });
 
 window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links.push({
-  title: 'Documentaions',
+  title: 'Documentaionsddd',
   href: 'https://blog.openshift.com'
 });
 
@@ -109,5 +137,6 @@ angular
 
     }
   ]);
+}());
 
 pluginLoader.addModule('openshiftOnlineExtensions');
