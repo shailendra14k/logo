@@ -52,6 +52,8 @@ window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links.push({
   title: 'Documentaionsddd',
   href: 'https://blog.openshift.com'
 });
+  
+  window.OPENSHIFT_CONSTANTS.HELP_BASE_URL = "https://example.com/docs/"; 
 
 /*
   Override the documentation links
