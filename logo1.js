@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
   This file contains extensions being used by the OpenShift Online Developer Preview
@@ -9,9 +9,9 @@
   Override the CLI download locations
 */
 window.OPENSHIFT_CONSTANTS.CLI = {
-  "Linux (32 bits)": "https://openshift.com/tbd_url/32bitlinux.tar.gz",
-  "Linux (64 bits)": "https://openshift.com/tbd_url/64bitlinux.tar.gz",
-  "Windows":         "https://openshift.com/tbd_url/win.zip",
+  "Linux (32 bits)asd": "https://openshift.com/tbd_url/32bitlinux.tar.gz",
+  "Linux (64 bits)sad": "https://openshift.com/tbd_url/64bitlinux.tar.gz",
+  "Windowsasd":         "https://openshift.com/tbd_url/win.zip",
   "Mac OS X":        "https://openshift.com/tbd_url/mac.zip"
 };
 
@@ -102,7 +102,7 @@ angular
               node: '<li class="divider"></li>'
             }, {
               type: 'dom',
-              node: '<li><a href="http://status.openshift.com/" target="_blank">System Status</a></li>'
+              node: '<li><a href="http://status.openshift.com/" target="_blank">asdasdsadasd Status</a></li>'
             }
           ];
         });
