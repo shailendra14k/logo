@@ -15,6 +15,16 @@ window.OPENSHIFT_CONSTANTS.CLI = {
   "Mac OS X":        "https://openshift.com/tbd_url/mac.zip"
 };
 
+window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links.push({
+  title: 'Blog',
+  href: 'https://blog.openshift.com'
+});
+
+window.OPENSHIFT_CONSTANTS.CATALOG_HELP_RESOURCES.links.push({
+  title: 'Documentaions',
+  href: 'https://blog.openshift.com'
+});
+
 /*
   Override the documentation links
 */
