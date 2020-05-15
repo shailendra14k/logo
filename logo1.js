@@ -16,7 +16,7 @@ angular
               node: '<li class="divider"></li>'
             }, {
               type: 'dom',
-              node: '<li><a href="https://stackoverflow.com/tags/openshift" target="_blank">Stack Overflow</a></li>'
+              node: '<li><a href="../11.png" target="_blank">Stack Overflow</a></li>'
             }
           ];
         });
