@@ -16,7 +16,10 @@ angular
               node: '<li class="divider"></li>'
             }, {
               type: 'dom',
-              node: '<li><a href="https://ttt-test.apps.ee33.example.opentlc.com/11.png" target="_blank">Stack Overflow</a></li>'
+              node: '<li><a href="https://ttt-test.apps.ee33.example.opentlc.com/11.png" target="_blank">User Manual</a></li>'
+            }, {
+              type: 'dom',
+              node: '<li><a href="https://ttt-test.apps.ee33.example.opentlc.com/11.png" target="_blank">Certificate</a></li>'
             }
           ];
         });
